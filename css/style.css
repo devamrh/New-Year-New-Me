@@ -52,3 +52,124 @@
     background: #F15B22;
 }
 
+
+
+/* main starts */
+
+main{
+    margin-top: 150px;
+}
+.bullet-contents{
+    display: flex;
+}
+.bullet-contents>p{
+    margin-left: 5px;
+}
+
+.regret-content{
+    display: flex;
+}
+
+.content{
+    margin-top: 140px;
+    margin-left: 200px;
+}
+
+.content>h1,p,.bullet-contents{
+    margin-top: 10px;
+}
+
+
+.content>h1{
+    color:  #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bullet-contents>p{
+    text-align: center;
+    margin-top: 1px;
+}
+
+.content>p{
+    color:  #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.regret-content>.image{
+    padding-left: 200px;
+}
+
+.regret-content>.image>img{
+    width: 451px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+/* plans section */
+
+.plans{
+    display: flex;
+    justify-content: center;
+}
+
+.plan-details{
+    margin: 0 60px;
+    text-align: center;
+}
+
+.plan-details>img{
+    width: 92px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+.plan-details>h1{
+    padding-top: 15px;
+    text-align: center;
+    color:  #151414;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plan-details>p{
+    text-align: center;
+    color:  #151414;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.target-section>h1{
+    text-align: center;
+    
+    margin-bottom: 40px;
+}
+.target-section{
+    margin-top: 150px;
+}
+
+
+/* gradient */
+
+.special-background{
+    background-image: url(/images/gradient3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 300px;
+    margin: 120px 300px;
+
+}
