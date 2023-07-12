@@ -165,11 +165,10 @@ main{
 /* gradient */
 
 .special-background{
-    background-image: url(/images/gradient3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 900px;
-    height: 300px;
-    margin: 120px 300px;
+    border-radius: 8px;
+    margin: 120px 180px;
+}
 
+.special-background>img>.sb-image-1{
+    padding-bottom: 10px;
 }
